@@ -1,25 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import Info, {} from "./Info";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <Info  className="info"
+   welcome="Welcome to Fullstack Devlopment"
+                title="React Js Programming Week09 Lab exercise"
+                stuId= "101390844"
+                stuName="Josefin"
+                schoolName="George Brown College, Toronto" />
 }
 
 export default App;
